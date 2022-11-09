@@ -1,0 +1,304 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif ;
+}
+body{
+    background-color: #F0F2F5;
+    height: 100%;
+}
+
+.header{
+    background-color: orange;
+    overflow: hidden;
+}
+
+.text-logo{
+    text-decoration: none;
+    color: black;
+    font-size: 35px;
+}
+
+.itens-nav{
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+    transition: 0.7s;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.itens-nav:hover{
+    border-bottom: 1px solid black;
+}
+
+.itens-navigation{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.header-info{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logo{
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 50px;
+    padding-top: 15px;
+}
+.img-logo{
+    height: 80px;
+    overflow: hidden;
+
+}
+img{
+    height: 300px;
+}
+
+.container-info{
+    width: 270px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding-bottom: 2rem;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 120px;
+    gap: 10px;
+}
+
+.container-p-description{
+    font-size: 17px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.input-head{
+    height: 45px;
+    width: 150px;
+    border-radius: 10px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    background-color: orange;
+    border: 1px solid white;
+
+}
+
+.section-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    gap: 10px;
+}
+
+.hr-section-title{
+    background-color: orange;
+    height: 0.1em;
+    width: 4em;
+    border: none;
+}
+
+.linha-section-principal{
+    width: 5em;
+    height: 0.1em;
+    background-color: orange;
+    border: none;
+}
+
+h3{
+    font-size: 30px;
+}
+
+.section-description{
+    font-size: 20px;
+}
+.section-img{
+    height: 50px;
+}
+
+.section-content-card{
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.section-card{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.content-info{ 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 110px;
+}
+
+.content-info-description{
+    width: 500px;
+}
+
+.content-info-input{
+    padding-top: 2em;
+    display: flex;
+    gap: 10px;
+
+}
+
+.input-content-info{
+    height: 40px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    background-color: orange;
+    font-size: 15px;
+    font-weight: 550;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.pre-footer{
+    padding-top: 110px;
+}
+
+.h1-final{
+    text-align: center;
+    padding-bottom: 10px;
+
+}
+
+.hr-final{
+    margin: 0 auto;
+    width: 6em;
+    height: 0.1em;
+    background-color: orange;
+    border: none;
+}
+
+.img-person-card{
+    height: 250px;
+    width: 200px;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.team-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 110px;
+}
+.team-person-name, .function-person-team{
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    font-weight: 530;
+}
+
+.person-team-card{
+    width: 200px;
+    padding: 10px;
+    background-color: orange;
+}
+
+.footer-info{
+    margin-top: 50px;
+    height: 100px;
+    padding-top: 30px;
+    background-color: orange;
+
+}
+
+.h1-footer{
+    text-align: center;
+    color: black;
+    padding-bottom: 10px;
+    margin-bottom: 7px;
+}
+
+.hr-footer{
+    width: 7em;
+    margin: 0 auto;
+    height: 0.1em;
+    background-color: white;
+    border: none;
+}
+
+@media (max-width: 798px){
+    .header-info{
+        display: flex;
+        justify-content: space-around;
+        padding-left: -10px;
+    }
+    
+    .itens-navigation{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .container{
+        padding-bottom: 1rem;        
+    }
+
+    .team-info{
+        width: 700px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    
+}
+
+@media(max-width:730px){
+    .header-info{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .section-content-card{
+        flex-wrap: wrap;
+    }
+}
+
+@media(max-width:690px){
+    .header{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .container{
+        display: flex;
+    }
+}
+
+@media(max-width:450px){
+    body{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
